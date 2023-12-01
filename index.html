@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab10Problem3</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Lab10 Problem3</h1>
+    </header>
+
+    <section id="about">
+        <h3>Installation of Flask</h3>
+        <p>To install Flask first I had to have python already installed. After installing python, I used the following command to install Flask:</p>
+        <code>pip install Flask</code>
+
+        <h3>Building the Web Page</h3>
+        <p>These are the steps i followed to sucessfully develop my webpage:</p>
+        <ol>
+            <li>I created a folder <code>Problem3</code> for the Flask webpage, and inside the folder I created two more folders, <code>templates</code> and <code>static</code>. The <code>templates</code> folder was for the html file, <code>index.html</code> and the <code>static</code> folder was for the css file, <code>styles.css</code>.</li>
+            <li>I developed an HTML template in the <code>index.html</code>  file and added css in the <code>styles.css</code> file</li>
+            <li>The final step, I hosted my webpage on Netlify.</li>
+        </ol>
+    </section>
+
+    <section id="challenges">
+        <h2>Difficulties Encountered</h2>
+
+        <p>There were some issues I faced while creating this webpage. I was unable to access my css file, as the static folder was in the wrong directory. Another issue was the css was not being applied to the webpage, because I was using the wrong <code>link</code> tag. After I fixed the folder sturcture and the link tag the webpage was working perfectly. </p>
+    </section>
+
+    <footer>
+        <p>Sri Charan Gurrala Lab 10</p>
+    </footer>
+</body>
+</html>
